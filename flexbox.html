@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container div {
+            width: 120px;
+            height: 100px;
+            border: 2px solid black;
+            margin: 5px;
+            text-align: center;
+            background-color: dodgerblue;
+
+        }
+
+        .container {
+            border: 2px solid gray;
+            width: 400px;
+            height: 400px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            /* It aligns item center horizontally. More - space-between,space-around,space-evenly*/
+            align-items: center;
+            /* It aligns item center vertically*/
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Flexbox -</h2>
+    <div class="container">
+        <div>div1</div>
+        <div>div2</div>
+        <div>div3</div>
+        <div>div4</div>
+        <div>div5</div>
+    </div>
+</body>
+
+</html>
