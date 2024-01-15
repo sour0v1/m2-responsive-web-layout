@@ -1,0 +1,27 @@
+header,nav,main,aside,footer{
+    border: 1px solid black;
+    background-color: bisque;
+}
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+}
+main{
+    grid-area: main;
+}
+aside{
+    grid-area: aside;
+}
+footer{
+    grid-area: footer;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "nav main main aside"
+    "";
+}
